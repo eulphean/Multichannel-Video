@@ -1,2 +1,2 @@
 # brahman-ai
-This repository contains the guide for setting up a multi-channel video installation using omxplayer-sync. 
+This repository contains the guide to setup up a multi-channel video installation using omxplayer-sync. 
