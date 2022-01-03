@@ -1,6 +1,8 @@
 # Multi-channel Video Installation using Raspberry Pi
 In 2020, Amay Kataria was invited for the [BRAHMAN](https://brahman.ai/) residency organized by [Gene Kogan](https://genekogan.com/) at Bombay Beach, California. These steps were put together that time to setup a distributed video installation using multiple raspberry pis. 
 
+![IMG_0202](https://user-images.githubusercontent.com/4178424/147972716-9e246f15-2a93-4d35-bdd0-93568183daa1.JPG)
+
 These instructions summarize how to setup multiple raspberry pis using omxplayer-sync to create a multi-channel video installation. This will require raspberry pis, display devices to show content, a router, and ethernet cables to connect each raspberry pi. 
 
 ## Setup Raspberry Pis
@@ -63,5 +65,4 @@ With this command, all the ready slaves will turn on along with the master compu
 
 ## Troubleshooting & Tips
 1. In the beginning, slave and master will not be in sync completely. You may notice some jerks or pauses in the slave video sequence. This is expected as the slave computer is trying to sync with the master by seeking constantly. This only lasts momentarily and will eventually disappear. To see the syncing actions in detail, give the v (verbose) flag like "omxplayer-sync -luv filename.mp4." This will print detailed logs and will show when the slave tries to seek to the master. 
-
 2. Sometimes, you want to fill the entire screen with the video content but when you play the file it doesn't stretch it. For that, there is the -a (aspect) flag that you can use. To fill the screen with the content, you may use it like this "omxplayer -muv -a stretch filename.mp4." 
