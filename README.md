@@ -1,4 +1,6 @@
 # Multi-channel Video Installation using Raspberry Pi
+In 2020, Amay Kataria was invited for the [BRAHMAN](https://brahman.ai/) residency organized by [Gene Kogan](https://genekogan.com/) at Bombay Beach, California. These steps were put together that time to setup a distributed video installation using multiple raspberry pis. 
+
 These instructions summarize how to setup multiple raspberry pis using omxplayer-sync to create a multi-channel video installation. This will require raspberry pis, display devices to show content, a router, and ethernet cables to connect each raspberry pi. 
 
 ## Setup Raspberry Pis
